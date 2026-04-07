@@ -1,0 +1,5 @@
+{
+    "jupyter.themeMatplotlibPlots": true,
+    "jupyter.showVariableViewWhenDebugging": true,
+    "jupyter.allowUnauthorizedRemoteConnection": true
+}

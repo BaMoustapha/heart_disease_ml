@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: heart-disease-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn dashboard:server --bind 0.0.0.0:$PORT
